@@ -19,3 +19,9 @@ Runs the whole application in production mode, serving ReactJS built static file
 
 ## build: `cd client && npm install && npm run build`
 Builds production static files for the client and install its dependencies
+
+
+---
+# Side notes
+- Add `"proxy":"http://localhost:${local_server_port}",` to the package.json file of the ReactJS client folder
+- Add `"homepage":".",` to the package.json file of the ReactJS client folder
